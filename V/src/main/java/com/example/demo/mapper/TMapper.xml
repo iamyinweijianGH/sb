@@ -16,4 +16,9 @@
        		(#{name})
     </insert>
 
+	<select id="findAll" resultType="com.example.demo.entity.T">
+       SELECT 
+       *
+	   FROM T
+    </select>
 </mapper>

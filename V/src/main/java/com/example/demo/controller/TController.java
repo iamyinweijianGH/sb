@@ -35,4 +35,10 @@ public class TController {
 	public Object t() {
 		return 1;
 	}
+	
+	@RequestMapping("/findAll")
+	@ResponseBody
+	public Object findAll() {
+		return tService.findAll(1 , 3, "id desc");
+	}
 }

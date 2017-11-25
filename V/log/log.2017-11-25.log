@@ -5061,3 +5061,435 @@ com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'n
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Unknown Source)
+15:13:34.930 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:13:34.932 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:13:35.120 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@471495b6: startup date [Sat Nov 25 15:13:35 CST 2017]; root of context hierarchy 
+15:13:36.983 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:13:36.991 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:13:36.992 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:13:37.079 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:13:37.079 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1959 ms 
+15:13:37.297 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:13:37.301 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:13:37.302 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:13:37.302 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:13:37.302 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:13:38.301 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@471495b6: startup date [Sat Nov 25 15:13:35 CST 2017]; root of context hierarchy 
+15:13:38.363 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:13:38.364 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:13:38.366 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:13:38.368 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:13:38.369 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:13:38.436 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:13:38.436 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:13:38.502 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:13:38.546 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:13:39.345 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:13:39.543 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:13:39.544 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:13:39.549 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:13:39.602 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:13:39.606 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 4.993 seconds (JVM running for 5.838) 
+15:13:55.380 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+15:13:55.381 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+15:13:55.403 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms 
+15:14:34.302 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@471495b6: startup date [Sat Nov 25 15:13:35 CST 2017]; root of context hierarchy 
+15:14:34.304 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:14:34.305 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:14:34.654 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:14:34.655 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:14:34.660 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4098487c: startup date [Sat Nov 25 15:14:34 CST 2017]; root of context hierarchy 
+15:14:35.310 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:14:35.311 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:14:35.311 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:14:35.333 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:14:35.335 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 675 ms 
+15:14:35.408 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:14:35.408 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:14:35.408 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:14:35.408 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:14:35.409 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:14:35.876 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4098487c: startup date [Sat Nov 25 15:14:34 CST 2017]; root of context hierarchy 
+15:14:35.894 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:14:35.894 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:14:35.894 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:14:35.894 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:14:35.897 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:14:35.898 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:14:35.943 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:35.943 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:35.969 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:35.989 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:14:36.212 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:14:36.389 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:14:36.389 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:14:36.393 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:14:36.418 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:14:36.421 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.822 seconds (JVM running for 62.653) 
+15:14:39.627 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4098487c: startup date [Sat Nov 25 15:14:34 CST 2017]; root of context hierarchy 
+15:14:39.630 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:14:39.631 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:14:39.954 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:14:39.954 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:14:39.956 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2683bde4: startup date [Sat Nov 25 15:14:39 CST 2017]; root of context hierarchy 
+15:14:40.537 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:14:40.538 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:14:40.538 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:14:40.559 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:14:40.560 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 604 ms 
+15:14:40.641 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:14:40.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:14:40.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:14:40.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:14:40.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:14:41.128 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2683bde4: startup date [Sat Nov 25 15:14:39 CST 2017]; root of context hierarchy 
+15:14:41.143 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:14:41.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:14:41.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:14:41.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:14:41.148 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:14:41.148 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:14:41.177 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:41.177 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:41.199 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:41.219 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:14:41.449 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:14:41.640 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:14:41.641 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:14:41.644 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:14:41.662 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:14:41.664 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.755 seconds (JVM running for 67.895) 
+15:14:42.858 [Thread-16] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2683bde4: startup date [Sat Nov 25 15:14:39 CST 2017]; root of context hierarchy 
+15:14:42.861 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:14:42.861 [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:14:43.183 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:14:43.183 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:14:43.185 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48e47f8b: startup date [Sat Nov 25 15:14:43 CST 2017]; root of context hierarchy 
+15:14:43.763 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:14:43.764 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:14:43.764 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:14:43.787 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:14:43.788 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 603 ms 
+15:14:43.858 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:14:43.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:14:43.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:14:43.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:14:43.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:14:44.280 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48e47f8b: startup date [Sat Nov 25 15:14:43 CST 2017]; root of context hierarchy 
+15:14:44.295 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:14:44.295 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:14:44.296 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:14:44.296 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:14:44.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:14:44.299 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:14:44.327 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:44.327 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:44.348 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:44.366 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:14:44.563 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:14:44.740 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:14:44.740 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:14:44.744 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:14:44.761 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:14:44.762 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.622 seconds (JVM running for 70.993) 
+15:14:46.504 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+15:14:46.505 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+15:14:46.517 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms 
+15:14:46.523 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:14:46.524 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:14:46.525 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:14:46.525 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:14:46.525 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:14:46.525 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594086525 
+15:14:46.757 [http-nio-8080-exec-4] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited 
+15:14:46.856 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:14:46.871 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:14:46.881 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:14:46.883 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:14:46.884 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 2(Integer) 
+15:14:46.886 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 2 
+15:14:46.890 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594086890 
+15:14:46.891 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---耗时:365 毫秒 
+15:14:52.996 [Thread-22] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48e47f8b: startup date [Sat Nov 25 15:14:43 CST 2017]; root of context hierarchy 
+15:14:52.999 [Thread-22] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:14:53.000 [Thread-22] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:14:53.008 [Thread-22] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed 
+15:14:53.356 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:14:53.357 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:14:53.359 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c304379: startup date [Sat Nov 25 15:14:53 CST 2017]; root of context hierarchy 
+15:14:53.940 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:14:53.941 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:14:53.941 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:14:53.962 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:14:53.963 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 604 ms 
+15:14:54.045 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:14:54.046 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:14:54.046 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:14:54.046 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:14:54.046 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:14:54.449 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c304379: startup date [Sat Nov 25 15:14:53 CST 2017]; root of context hierarchy 
+15:14:54.464 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:14:54.464 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:14:54.465 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:14:54.465 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:14:54.466 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:14:54.467 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:14:54.495 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:54.495 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:54.516 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:14:54.533 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:14:54.710 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:14:54.885 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:14:54.885 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:14:54.888 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:14:54.904 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:14:54.906 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.593 seconds (JVM running for 81.136) 
+15:14:55.527 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+15:14:55.527 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+15:14:55.541 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms 
+15:14:55.543 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:14:55.544 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:14:55.544 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:14:55.544 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:14:55.544 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:14:55.545 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594095545 
+15:14:55.582 [http-nio-8080-exec-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited 
+15:14:55.589 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:14:55.589 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:14:55.591 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:14:55.591 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:14:55.592 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 2(Integer) 
+15:14:55.592 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 2 
+15:14:55.601 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594095601 
+15:14:55.601 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---耗时:56 毫秒 
+15:15:00.570 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:00.571 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:00.571 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:00.571 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:00.571 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:00.571 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594100571 
+15:15:00.574 [http-nio-8080-exec-3] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:00.574 [http-nio-8080-exec-3] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:00.575 [http-nio-8080-exec-3] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:00.577 [http-nio-8080-exec-3] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:00.578 [http-nio-8080-exec-3] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 2(Integer) 
+15:15:00.579 [http-nio-8080-exec-3] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 2 
+15:15:00.581 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594100581 
+15:15:00.581 [http-nio-8080-exec-3] INFO  com.example.demo.aop.ControllerAop - ---耗时:10 毫秒 
+15:15:01.136 [Thread-28] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c304379: startup date [Sat Nov 25 15:14:53 CST 2017]; root of context hierarchy 
+15:15:01.137 [Thread-28] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:15:01.137 [Thread-28] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:15:01.141 [Thread-28] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed 
+15:15:01.381 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:15:01.382 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:15:01.384 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19d2fc97: startup date [Sat Nov 25 15:15:01 CST 2017]; root of context hierarchy 
+15:15:01.944 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:15:01.944 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:15:01.945 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:15:01.963 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:15:01.964 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 579 ms 
+15:15:02.022 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:15:02.022 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:15:02.022 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:15:02.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:15:02.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:15:02.421 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19d2fc97: startup date [Sat Nov 25 15:15:01 CST 2017]; root of context hierarchy 
+15:15:02.436 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:15:02.436 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:15:02.436 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:15:02.436 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:15:02.438 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:15:02.438 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:15:02.466 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:02.466 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:02.487 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:02.504 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:15:02.678 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:15:02.853 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:15:02.854 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:15:02.857 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:15:02.872 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:15:02.875 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.537 seconds (JVM running for 89.106) 
+15:15:14.629 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+15:15:14.629 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+15:15:14.642 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms 
+15:15:14.644 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:14.645 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:14.645 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:14.645 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:14.645 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:14.646 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594114646 
+15:15:14.680 [http-nio-8080-exec-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited 
+15:15:14.688 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:14.688 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:14.691 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:14.692 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:14.692 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 3(Integer) 
+15:15:14.693 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 3 
+15:15:14.695 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594114695 
+15:15:14.695 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---耗时:49 毫秒 
+15:15:20.136 [Thread-34] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19d2fc97: startup date [Sat Nov 25 15:15:01 CST 2017]; root of context hierarchy 
+15:15:20.138 [Thread-34] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:15:20.138 [Thread-34] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:15:20.141 [Thread-34] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed 
+15:15:20.466 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:15:20.466 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:15:20.468 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5dbfeab3: startup date [Sat Nov 25 15:15:20 CST 2017]; root of context hierarchy 
+15:15:21.005 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:15:21.006 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:15:21.006 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:15:21.025 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:15:21.027 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 559 ms 
+15:15:21.095 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:15:21.095 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:15:21.095 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:15:21.095 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:15:21.095 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:15:21.560 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5dbfeab3: startup date [Sat Nov 25 15:15:20 CST 2017]; root of context hierarchy 
+15:15:21.575 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:15:21.576 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:15:21.576 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:15:21.576 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:15:21.578 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:15:21.578 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:15:21.606 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:21.606 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:21.627 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:21.645 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:15:21.842 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:15:22.016 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:15:22.016 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:15:22.020 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:15:22.036 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:15:22.039 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.615 seconds (JVM running for 108.27) 
+15:15:24.375 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+15:15:24.375 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+15:15:24.387 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms 
+15:15:24.389 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:24.390 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:24.390 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:24.391 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:24.391 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:24.391 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594124391 
+15:15:24.421 [http-nio-8080-exec-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} inited 
+15:15:24.429 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:24.429 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:24.430 [http-nio-8080-exec-1] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:24.431 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:24.431 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 3(Integer) 
+15:15:24.433 [http-nio-8080-exec-1] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 3 
+15:15:24.435 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594124435 
+15:15:24.435 [http-nio-8080-exec-1] INFO  com.example.demo.aop.ControllerAop - ---耗时:44 毫秒 
+15:15:26.380 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:26.381 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:26.381 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:26.381 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:26.381 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:26.381 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594126381 
+15:15:26.383 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:26.384 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:26.385 [http-nio-8080-exec-4] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:26.386 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:26.387 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 3(Integer) 
+15:15:26.388 [http-nio-8080-exec-4] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 3 
+15:15:26.390 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594126390 
+15:15:26.390 [http-nio-8080-exec-4] INFO  com.example.demo.aop.ControllerAop - ---耗时:9 毫秒 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:26.883 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594126883 
+15:15:26.885 [http-nio-8080-exec-5] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:26.885 [http-nio-8080-exec-5] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:26.886 [http-nio-8080-exec-5] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:26.887 [http-nio-8080-exec-5] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:26.887 [http-nio-8080-exec-5] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 3(Integer) 
+15:15:26.889 [http-nio-8080-exec-5] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 3 
+15:15:26.891 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594126891 
+15:15:26.891 [http-nio-8080-exec-5] INFO  com.example.demo.aop.ControllerAop - ---耗时:8 毫秒 
+15:15:46.311 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - -----------------------------info 
+15:15:46.312 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---请求方法com.example.demo.controller.TController.findAll() 
+15:15:46.312 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---method:GET 
+15:15:46.312 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---url:http://127.0.0.1:8080/t/findAll 
+15:15:46.312 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---param:null 
+15:15:46.312 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---开始时间：1511594146312 
+15:15:46.314 [http-nio-8080-exec-8] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM T  
+15:15:46.315 [http-nio-8080-exec-8] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - ==> Parameters:  
+15:15:46.316 [http-nio-8080-exec-8] DEBUG c.e.d.mapper.TMapper.findAll_COUNT - <==      Total: 1 
+15:15:46.318 [http-nio-8080-exec-8] DEBUG c.e.demo.mapper.TMapper.findAll - ==>  Preparing: SELECT * FROM T order by id desc LIMIT ?  
+15:15:46.319 [http-nio-8080-exec-8] DEBUG c.e.demo.mapper.TMapper.findAll - ==> Parameters: 3(Integer) 
+15:15:46.322 [http-nio-8080-exec-8] DEBUG c.e.demo.mapper.TMapper.findAll - <==      Total: 3 
+15:15:46.326 [Thread-40] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5dbfeab3: startup date [Sat Nov 25 15:15:20 CST 2017]; root of context hierarchy 
+15:15:46.326 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---结束时间：1511594146326 
+15:15:46.326 [http-nio-8080-exec-8] INFO  com.example.demo.aop.ControllerAop - ---耗时:14 毫秒 
+15:15:46.328 [Thread-40] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:15:46.328 [Thread-40] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:15:46.333 [Thread-40] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} closed 
+15:15:46.553 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:15:46.553 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:15:46.555 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71ef8619: startup date [Sat Nov 25 15:15:46 CST 2017]; root of context hierarchy 
+15:15:47.103 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:15:47.103 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:15:47.103 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:15:47.124 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:15:47.126 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 571 ms 
+15:15:47.206 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:15:47.207 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:15:47.207 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:15:47.207 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:15:47.207 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:15:47.598 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71ef8619: startup date [Sat Nov 25 15:15:46 CST 2017]; root of context hierarchy 
+15:15:47.614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:15:47.614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:15:47.614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:15:47.615 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:15:47.616 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:15:47.617 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:15:47.646 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:47.646 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:47.666 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:47.683 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:15:47.855 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:15:48.047 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:15:48.048 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:15:48.051 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:15:48.069 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:15:48.071 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.561 seconds (JVM running for 134.301) 
+15:15:51.267 [Thread-46] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71ef8619: startup date [Sat Nov 25 15:15:46 CST 2017]; root of context hierarchy 
+15:15:51.269 [Thread-46] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:15:51.269 [Thread-46] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+15:15:51.617 [restartedMain] INFO  com.example.demo.VApplication - Starting VApplication on YWJ with PID 272920 (G:\git\V\target\classes started by Administrator in G:\git\V) 
+15:15:51.618 [restartedMain] INFO  com.example.demo.VApplication - No active profile set, falling back to default profiles: default 
+15:15:51.620 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2bf8124f: startup date [Sat Nov 25 15:15:51 CST 2017]; root of context hierarchy 
+15:15:52.180 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+15:15:52.180 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+15:15:52.180 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20 
+15:15:52.201 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+15:15:52.202 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 582 ms 
+15:15:52.268 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+15:15:52.268 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+15:15:52.268 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+15:15:52.268 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+15:15:52.268 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+15:15:52.669 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2bf8124f: startup date [Sat Nov 25 15:15:51 CST 2017]; root of context hierarchy 
+15:15:52.683 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/t]}" onto public java.lang.Object com.example.demo.controller.TController.t() 
+15:15:52.684 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findAll]}" onto public java.lang.Object com.example.demo.controller.TController.findAll() 
+15:15:52.684 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/addT]}" onto public java.lang.Object com.example.demo.controller.TController.addT() 
+15:15:52.684 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/t/findById]}" onto public java.lang.Object com.example.demo.controller.TController.findById(java.lang.Long) 
+15:15:52.685 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+15:15:52.686 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+15:15:52.714 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:52.714 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:52.735 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+15:15:52.752 [restartedMain] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+15:15:52.928 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+15:15:53.102 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+15:15:53.102 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+15:15:53.105 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+15:15:53.123 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+15:15:53.126 [restartedMain] INFO  com.example.demo.VApplication - Started VApplication in 1.55 seconds (JVM running for 139.357) 
+15:17:04.630 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+15:17:04.630 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2bf8124f: startup date [Sat Nov 25 15:15:51 CST 2017]; root of context hierarchy 
+15:17:04.631 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+15:17:04.631 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.TMapper" >
+
+    <select id="findById" resultType="com.example.demo.entity.T"  parameterType="Long">
+       SELECT 
+       *
+	   FROM T WHERE ID = #{id}
+    </select>
+
+    <insert id="addT" parameterType="com.example.demo.entity.T" >
+       INSERT INTO 
+       		T
+       		(name) 
+       	VALUES
+       		(#{name})
+    </insert>
+
+</mapper>
